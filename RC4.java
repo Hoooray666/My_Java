@@ -24,7 +24,7 @@ public class RC4 {
         int i =0;
         int cnt =0;
         StringBuffer s = new StringBuffer();
-        while(cnt<10){
+        while(cnt<7){
             i=(i+1)%4;
             j = (j+S[i])%4;
             System.out.println("i="+i+" j="+j);
